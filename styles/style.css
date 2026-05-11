@@ -137,6 +137,8 @@ textarea {
   border-radius: 15px;
   background-color: gray;
   padding: 25px;
+  max-width: 600px;
+  margin: auto;
 }
 
 input {
@@ -153,4 +155,5 @@ button {
   background-color: #fdf9b4;
   padding: 5px;
   border-radius: 15px;
+  color: black;
 }
