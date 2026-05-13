@@ -191,6 +191,9 @@ textarea {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .target-card {
@@ -200,6 +203,7 @@ textarea {
 
 .consultation-card {
   background-image: url(../img/consultation-bg.webp);
+  color: white;
 }
 
 .beaty-card {
@@ -208,6 +212,7 @@ textarea {
 
 .audit-card {
   background-image: url(../img/audit-bg.webp);
+  color: white;
 }
 
 .swiper {
@@ -222,7 +227,7 @@ textarea {
     height: auto;
     border-radius: 20px;
     transition: opacity 0.5s;
-    height: 400px !important; 
+    padding: 20px;
 }
 
 .offers .swiper-button-next, 
@@ -241,6 +246,22 @@ textarea {
     opacity: 1;
 }
 
+.offers-card {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.offers-card-title {
+  font-size: 24px;
+}
+
+.offers-card-subtitle {
+  text-align: right;
+}
+
+.card-details-title {
+  text-transform: none;
+}
 
 .contact-form {
   border-radius: 15px;
