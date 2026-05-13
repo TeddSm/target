@@ -203,11 +203,6 @@ textarea {
   padding-top: 15px;
 }
 
-.offers-container {
-  width: 100%;
-  overflow: hidden;
-}
-
 .offers-card {
   background-repeat: no-repeat;
   background-position: center center;
@@ -259,8 +254,6 @@ textarea {
 
 .offers .swiper-button-next, 
 .offers .swiper-button-prev {
-    top: auto !important;   
-    bottom: 10px !important;
     color: #fdf9b4 !important;
     position: absolute;
     background-color: grey;
@@ -291,6 +284,10 @@ textarea {
 
 .card-details-title {
   text-transform: none;
+}
+
+.card-details-result {
+  text-align: right;
 }
 
 .contact-form {
