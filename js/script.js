@@ -28,6 +28,22 @@ document
     }
   });
 
+const policyBtn = document.querySelector(".policy-btn");  
+const policySection = document.querySelector(".policy");  
+const closePolicyBtn = document.querySelector(".close-policy-btn")
+
+if(policyBtn) {
+  policyBtn.addEventListener("click", () => {
+policySection.classList.add("active");
+  })
+}
+
+if(closePolicyBtn) {
+  closePolicyBtn.addEventListener("click", () => {
+policySection.classList.remove("active");
+  })
+}
+
   const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
