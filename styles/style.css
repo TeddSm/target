@@ -187,13 +187,17 @@ textarea {
   color: #fdf9b4;
 }
 
+.offers {
+  padding-top: 15px;
+}
+
 .offers-card {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  display: flex;
+  display: flex !important;;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .target-card {
@@ -230,12 +234,21 @@ textarea {
     padding: 20px;
 }
 
+.swiper-buttons-container {
+  position: relative;
+  height: 44px;
+
+}
+
 .offers .swiper-button-next, 
 .offers .swiper-button-prev {
     top: auto !important;   
     bottom: 10px !important;
     color: #fdf9b4 !important;
     position: absolute;
+    background-color: grey;
+    padding: 25px;
+    border-radius: 15px;
 }
 
 .swiper-slide-next,
