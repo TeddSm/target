@@ -27,3 +27,22 @@ document
       alert("Помилка відправки.");
     }
   });
+
+  const swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true, 
+    slidesPerView: "auto", 
+    loop: true, 
+    coverflowEffect: {
+        rotate: -40,    
+        stretch: 0,      
+        depth: 200,      
+        modifier: 1,
+        slideShadows: false, 
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

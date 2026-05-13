@@ -118,20 +118,129 @@ textarea {
   font-size: 16px;
 }
 
-.about-icon {
+.section-icon {
   color: #fdf9b4;
   font-size: 33px;
   margin-right: 10px;
 }
 
-.about-title {
+.section-title {
   text-transform: uppercase;
 }
 
-.about-title-aftertext {
-  margin-left: 30%;
+.section-title-aftertext {
+  text-align: right;
   color: gray;
 }
+
+.section-arrow {
+  color: #fdf9b4;
+  font-size: 30px;
+}
+
+.services-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-card {
+  max-width: 70%;
+  padding: 20px;
+  background: linear-gradient(
+        rgba(255, 255, 255, 0.95), 
+        rgba(197, 194, 194, 0.99),
+        rgba(238, 237, 237, 0.95),
+        rgba(197, 194, 194, 0.99),
+        rgba(255, 255, 255, 0.95)
+    ), 
+    url("../img/article-bg.webp");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.747);
+    border-radius: 24px;
+    padding: 30px;
+    color: #000; 
+    
+    transition: all 0.3s ease;
+  
+}
+
+.services-card-text {
+  font-size: 20px;
+}
+
+.services-card-title {
+  font-size: 22px;
+}
+
+.services-card-underline {
+  border-bottom: 1px solid;
+}
+
+.yellow {
+  color: #fdf9b4;
+}
+
+.offers-card {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.target-card {
+  background-image: url(../img/target-bg.webp);
+  
+}
+
+.consultation-card {
+  background-image: url(../img/consultation-bg.webp);
+}
+
+.beaty-card {
+  background-image: url(../img/beaty-bg.webp);
+}
+
+.audit-card {
+  background-image: url(../img/audit-bg.webp);
+}
+
+.swiper {
+    width: 80%;
+    overflow: visible !important; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    width: 250px; 
+    height: auto;
+    border-radius: 20px;
+    transition: opacity 0.5s;
+    height: 800px !important; 
+}
+
+.offers .swiper-button-next, 
+.offers .swiper-button-prev {
+    top: auto !important;   
+    bottom: 10px !important;
+    color: #fdf9b4 !important;
+    position: absolute;
+}
+
+.swiper-slide-next,
+.swiper-slide-prev {
+    opacity: 0.5;
+}
+.swiper-slide-active {
+    opacity: 1;
+}
+
 
 .contact-form {
   border-radius: 15px;
