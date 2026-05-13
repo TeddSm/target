@@ -222,7 +222,7 @@ textarea {
     height: auto;
     border-radius: 20px;
     transition: opacity 0.5s;
-    height: 600px !important; 
+    height: 400px !important; 
 }
 
 .offers .swiper-button-next, 
