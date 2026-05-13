@@ -12,6 +12,7 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -20,6 +21,16 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: "Inter", sans-serif;
   letter-spacing: -0.022em;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    position: relative;
 }
 
 img,
@@ -69,6 +80,7 @@ textarea {
 
 .container {
   padding: 0 10px 0 10px;
+  overflow-x: hidden;
 }
 
 .hero {
@@ -191,6 +203,11 @@ textarea {
   padding-top: 15px;
 }
 
+.offers-container {
+  width: 100%;
+  overflow: hidden;
+}
+
 .offers-card {
   background-repeat: no-repeat;
   background-position: center center;
@@ -198,6 +215,7 @@ textarea {
   display: flex !important;;
   flex-direction: column;
   gap: 20px;
+  justify-content: space-between;
 }
 
 .target-card {
@@ -227,8 +245,7 @@ textarea {
 }
 
 .swiper-slide {
-    width: 250px; 
-    height: auto;
+    height: 730px !important;
     border-radius: 20px;
     transition: opacity 0.5s;
     padding: 20px;
