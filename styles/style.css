@@ -83,6 +83,18 @@ textarea {
   overflow-x: hidden;
 }
 
+@media (min-width: 768px) {
+  .container {
+padding: 0 70px 0 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+padding: 0 200px 0 200px;
+  }
+}
+
 .hero {
   background-image: url("../img/hero-bg.webp");
   color: white;
@@ -241,6 +253,12 @@ textarea {
     border-radius: 20px;
     transition: opacity 0.5s;
     padding: 20px;
+}
+
+@media (min-width: 1200px) {
+.swiper-slide {
+  height: 90vh !important;
+}
 }
 
 .swiper-buttons-container {

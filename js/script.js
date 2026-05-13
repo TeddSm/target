@@ -41,6 +41,24 @@ document
         modifier: 1,
         slideShadows: false, 
     },
+    breakpoints: {
+        768: {
+            coverflowEffect: {
+                rotate: -20, 
+                stretch: 0,
+                depth: 150,
+                modifier: 1,
+            },
+        },
+        1024: {
+            coverflowEffect: {
+                rotate: -20,    
+                stretch: 10, 
+                depth: 200,
+                modifier: 1.5,
+            },
+        }
+      },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
