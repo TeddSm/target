@@ -173,7 +173,6 @@ textarea {
     background-position: center;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-
     border: 1px solid rgba(255, 255, 255, 0.747);
     border-radius: 24px;
     padding: 30px;
@@ -235,13 +234,10 @@ textarea {
 .swiper {
     width: 80%;
     overflow: visible !important; 
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: auto;
 }
 
 .swiper-slide {
-    height: 730px !important;
+    height: 800px !important;
     border-radius: 20px;
     transition: opacity 0.5s;
     padding: 20px;
@@ -250,13 +246,11 @@ textarea {
 .swiper-buttons-container {
   position: relative;
   height: 44px;
-
 }
 
 .offers .swiper-button-next, 
 .offers .swiper-button-prev {
     color: #fdf9b4 !important;
-    position: absolute;
     background-color: grey;
     padding: 25px;
     border-radius: 15px;
