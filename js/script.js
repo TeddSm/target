@@ -80,3 +80,17 @@ policySection.classList.remove("active");
         prevEl: ".swiper-button-prev",
     },
 });
+
+document.querySelectorAll('.slide-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault(); 
+        const slideIndex = this.getAttribute('data-slide');
+        const targetSection = document.querySelector('#swiper');
+        targetSection.scrollIntoView({
+            behavior: 'smooth' 
+        });
+        if (typeof swiper !== 'undefined') {
+            swiper.slideToLoop(slideIndex, 900); 
+        }
+    });
+});

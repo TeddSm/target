@@ -209,6 +209,14 @@ padding: 0 200px 0 200px;
   color: white;
 }
 
+@media (min-width: 1200px) {
+  .services {
+  background: url(../img/services-bg-pc.webp);
+ background-size: cover;
+ background-position: center center;
+  }
+}
+
 .services-cards-container {
   display: flex;
   flex-wrap: wrap;
